@@ -3,34 +3,111 @@
 <head>
   <meta charset="UTF-8">
   <title>Портфолио Byte Coder</title>
+  <link rel="stylesheet" href="https://bootswatch.com/4/superhero/bootstrap.min.css">
 </head>
 <body>
-  <h1>Портфолио <sup>в разработке</sup></h1> 
-  <h2>React</h2>
-  <ul>
-    <li>
-      <a href="https://bytecoder8.github.io/react-todo-list/build/" target="_blank">
-        Приложение Списка Дел
-      </a>
-    </li>
-  </ul>
-  <h2>Vue</h2>
-  <ul>
-    <li>
-      <a href="https://bytecoder8.github.io/vue-money/" target="_blank">
-        Учет личного бюджета
-      </a>
-    </li>
-    <li>
-      <a href="https://bytecoder8.github.io/vue-tasks/" target="_blank">
-        Список задач с дедлайнами
-      </a>
-    </li>
-  </ul>
-  <h2>Верстка</h2>
-  <ul>
-    <li><a href="https://bytecoder8.github.io/nerds/" target="_blank">Фиксированный шаблон сайта</a></li>
-  </ul>
-  Исходники: <a href="https://github.com/bytecoder8/" target="_blank">https://github.com/bytecoder8/</a>
+  <div class="container">
+    <h1 class="mt-3">Фронтенд разработчик <small>@bytecoder8</small></h1>
+
+    <h2 class="mt-4">Приложения на React</h2>
+    <div class="row">
+      <div class="col-12 col-md-5">
+        <div class="card border-info mb-3">
+          <div class="card-header">localStorage, react-testing-library</div>
+          <div class="card-body">
+            <h4 class="card-title">Todo List</h4>
+            <p class="card-text">
+              Добавление, поиск, фильтрация задач по готовности.
+              Сохранение состояния приложения в локальное хранилище.
+              Код покрыт тестами.
+            </p>
+            <a href="https://bytecoder8.github.io/react-todo-list/build/" class="btn btn-primary" target="_blank" role="button">
+              открыть
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-5">
+        <div class="card mb-3 border-dark">
+          <div class="card-header">API, fetch</div>
+          <div class="card-body">
+            <h4 class="card-title">Клиент базы Звездных войн</h4>
+            <p class="card-text">
+              Многостраничное SPA с загрузкой данных с сервера.
+            </p>
+            <div class="progress" style="height: 2rem;">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-success p-3"
+                role="progressbar"
+                style="width: 100%"
+              >
+                В разработке
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="mt-4">Приложения на Vue</h2>
+    <div class="row">
+      <div class="col-12 col-md-5">
+        <div class="card border-success mb-3">
+          <div class="card-header">Vuex, Vue Router, Firebase, Materalize Design</div>
+          <div class="card-body">
+            <h4 class="card-title">Учет личного бюджета</h4>
+            <p class="card-text">
+              Многостраничное, многопользовательское SPA об использовании денег. Присутствует создание, редактирование записей и категорий.
+              Планирование и статистика. Отображение баланса в разных валютах.
+            </p>
+            <p class="card-text">
+              Данные для входа: user@example.com / password
+            </p>
+            <a href="https://bytecoder8.github.io/vue-money/" class="btn btn-primary" target="_blank" role="button">
+              открыть
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-5">
+        <div class="card border-success mb-3">
+          <div class="card-header">Vuex, Vue Router, localStorage, Materalize Design</div>
+          <div class="card-body">
+            <h4 class="card-title">Список задач с дедлайнами</h4>
+            <p class="card-text">
+              Используется локальное хранилище, материальный дизайн, переключение языка на лету.
+            </p>
+            <a href="https://bytecoder8.github.io/vue-tasks/" class="btn btn-primary" target="_blank" role="button">
+              открыть
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="mt-4">Верстка</h2>
+    <div class="row">
+      <div class="col-12 col-md-5">
+        <div class="card border-light mb-3">
+          <div class="card-header">Фиксированная, Flexbox</div>
+          <div class="card-body">
+            <h4 class="card-title">Шаблон сайта веб-компании</h4>
+            <p class="card-text">
+              Сверстаны главная страница и каталог. Поля ввода, чекбоксы и слайдер стилизованы.
+            </p>
+            <a href="https://bytecoder8.github.io/nerds/" class="btn btn-primary" target="_blank" role="button">
+              открыть
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="pb-3 text-center">
+        <a href="https://github.com/bytecoder8/" target="_blank"
+        ><img src="images/GitHub-Mark-Light-32px.png" alt="github icon">
+        </a>
+    </footer>
+  </div>
 </body>
 </html>
