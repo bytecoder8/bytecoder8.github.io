@@ -1,2 +1,2 @@
 # bytecoder8.github.io
-Site
+Сайт-портфолио со списком работ.
